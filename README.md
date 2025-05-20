@@ -40,6 +40,7 @@ If the reset signal is not asserted, assign the value of sin to the first flip-f
 End the module declaration.
 
 **PROGRAM**
+```
 module siso_10(clk, sin, q);
 input clk;
 input sin;
@@ -53,6 +54,7 @@ q[2] <= q[1];
 q[3] <= q[2];
 end
 endmodule
+```
 Developed by: Yaazhini S
 RegisterNumber:212224230308
 
